@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'GROBOLD';
+    src: url("../fonts/GROBOLD.ttf");
+}
+
+
+/*-----------------------------------------------------------------------------
+Reset
+-----------------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------
+Common
+-----------------------------------------------------------------------------*/
+
+.hero {
+	background-image: url('../img/hero.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	width: 100%;
+
+
+}
+
+.hero-info {
+	padding-top: 75px;
+	color: white;
+}
+
+.hero-title {
+	font-size: 80px;
+	margin-bottom: 15px;
+	font-family: 'Michroma', GROBOLD;
+}
+
+.hero-title h1 {
+	font-weight: bold;
+	letter-spacing: 30px;
+}
+
+.hero-subhead {
+	padding-bottom: 490px;
+	font-family: 'Michroma';
+}
+
+nav {
+	text-align: center;
+	/*background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../img/stars4.jpg');*/
+}
+
+nav li {
+	display: inline;
+	line-height: 80px;
+	padding: 0 70px;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: 'Open Sans',Geneva;
+	color: black;
+	padding-bottom: 5px;
+}
+
+nav a {
+	color: black;
+}
+
+nav li:hover {
+	border-bottom: 1px solid black;
+
+}
+
+section {
+	font-family: 'Open Sans', Sans-Serif;
+
+	
+}
+
+.poster {
+	background-color: #f7f7f7;
+}
+
+.poster img {
+	max-height: 550px;
+	padding-left: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.poster .row {
+	
+}
+
+.poster h3 {
+	text-align: center;
+	padding-top: 50px;
+	font-size: 25px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+.poster p {
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+/*.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+/*	padding-top: 25px;
+	height: 0;
+}*/
+.video-wrapper iframe {
+	/*position: absolute;
+	top: 0;
+	left: 0;*/
+	width: 100%;
+	/*height: 100%;*/
+}
+
+.cast .img-container {
+	height: 300px;
+	width: 300px;	
+}
+
+.cast img {
+    width:  100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.cast h4 {
+	overflow: hidden;
+
+}
+
+/*-----------------------------------------------------------------------------
+Grid
+-----------------------------------------------------------------------------*/
+
+.container {
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.row {
+	overflow: hidden;
+}
+
+
+.col-1 {
+	float: left;
+	width: 8.33333333%
+}
+
+.col-2 {
+	float: left;
+	width: 16.66666667%
+}
+
+.col-3 {
+	float: left;
+	width: 25%;
+}
+
+.col-4 {
+	float: left;
+	width: 33.33333333%;
+}
+
+.col-5 {
+	float: left;
+	width: 41.66666667%
+}
+
+.col-6 {
+	float: left;
+	width: 50%;
+}
+
+.col-7 {
+	float: left;
+	width: 58.33333333%;
+}
+
+.col-8 {
+	float: left;
+	width: 66.66666667%;
+}
+
+.col-9 {
+	float: left;
+	width: 75%;
+}
+
+.col-10 {
+	float: left;
+	width: 83.33333333%;
+}
+
+.col-11 {
+	float: left;
+	width: 91.66666667%;
+}
+
+.col-12 {
+	float: left;
+	width: 100%;
+}
+
+.mobile-hidden {
+	display: none;
+}
+
+
+/*-----------------------------------------------------------------------------
+Media Queries
+-----------------------------------------------------------------------------*/
